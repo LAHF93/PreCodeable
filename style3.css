@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Ringbearer';
+  src: url('Fonts/RingbearerMedium-51mgZ.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aniron';
+  src: url('Fonts/Aniron-7BaP.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hobbiton';
+  src: url('Fonts/HobbitonBrushhandhobbitonBrush-WygA.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'tngani';
+  src: url('Fonts/tngani.ttf') format('truetype');
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ringbearer', Arial, Helvetica, sans-serif;
+    background-color: #b87316;
+    height: 100vh; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 8px auto;
+    font-weight: 600;
+}
+.header-name{
+    font-size: 30px;
+    line-height: 36px;
+    color: #402f21
+}
+.header-inicio {
+    padding: 4px 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #402f21;
+}
+.header-button {
+    background-color: #402f21;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F3F4F6;
+}
+nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+h1 { 
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: 'RingBearer',Arial, Helvetica, sans-serif;
+    margin: 0 0 20px 0;
+    color: #402f21;
+}
+.presentación-texto {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+    font-family: 'Aniron',Arial, Helvetica, sans-serif;
+    color: #402f21;
+}
+span {
+    cursor: pointer; 
+    font-weight: 600;
+    color: #e3b737;
+}
+.sección1{
+  background-color: #eedda0;
+  margin: 10px 0 32px 0;
+  padding: 160px;
+}
+.contactar{
+    font-family: 'Aniron', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;  
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    color: #402f21;
+}
+.header-button2{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: #402f21;
+    padding: 8px 12px;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F3F4F6;
+
+}
+.presentación{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

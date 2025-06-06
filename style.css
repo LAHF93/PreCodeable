@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'Ringbearer';
+  src: url('Fonts/RingbearerMedium-51mgZ.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aniron';
+  src: url('Fonts/Aniron-7BaP.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hobbiton';
+  src: url('Fonts/HobbitonBrushhandhobbitonBrush-WygA.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'tngani';
+  src: url('Fonts/tngani.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'party';
+  src: url('Fonts/PartyBusiness-4B0K.ttf') format('truetype');
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ringbearer', Arial, Helvetica, sans-serif;
+    background-color: #b87316;
+    height: 100vh;
+}
+.caculadora{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 8px auto;
+    font-weight: 600;
+}
+
+.header-name{
+    font-size: 30px;
+    line-height: 36px;
+    color: #402f21
+}
+.header-inicio {
+    padding: 4px 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #402f21;
+}
+.header-button {
+    background-color: #402f21;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F3F4F6;
+}
+nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.s1-contenedor {
+    background-color: #eedda0;
+}
+
+.presentación {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 32px 0px;
+}
+.titulo-presentación{ 
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: 'RingBearer',Arial, Helvetica, sans-serif;
+    color: #402f21;
+}
+span {
+    font-weight: 600;
+    color: #e3b737;
+}
+.presentación-texto {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+    font-family: 'Aniron',Arial, Helvetica, sans-serif;
+    color: #402f21;
+}
+.container{
+    background-color: #eedda0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.inputs{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    border: 2px solid #b87316;
+    border-radius: 8px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+/* pseudo - elemento */
+input::placeholder{
+    text-align: center;
+}
+h1{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+}
+.imcbutton{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    background-color: #402f21;
+    color: #F3F4F6;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+/* pseudo - clase */
+.imcbutton:hover{
+    background-color: #e3b737;
+}
+.imcbutton:active{
+    background-color: #e3b737;
+}
+/* para dar estilo a un id es con el signo # */
+#resultado{
+    font-family: 'Aniron',Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.s3-container-imc{
+    padding: 10px;
+    margin: 30px 0 0 0;
+}
+.contactar{
+    font-family: 'Aniron', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;  
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    color: #402f21;
+}
+.header-button2{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: #402f21;
+    padding: 8px 12px;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F3F4F6;
+}
+.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+    background-color: #eedda0;
+    padding: 100px 100px;
+}

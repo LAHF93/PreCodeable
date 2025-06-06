@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+  font-family: 'Ringbearer';
+  src: url('Fonts/RingbearerMedium-51mgZ.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aniron';
+  src: url('Fonts/Aniron-7BaP.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hobbiton';
+  src: url('Fonts/HobbitonBrushhandhobbitonBrush-WygA.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'tngani';
+  src: url('Fonts/tngani.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'party';
+  src: url('Fonts/PartyBusiness-4B0K.ttf') format('truetype');
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ringbearer', Arial, Helvetica, sans-serif;
+    background-color: #b87316;
+    height: 100vh; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 8px auto;
+    font-weight: 600;
+}
+
+.header-name{
+    font-size: 30px;
+    line-height: 36px;
+    color: #402f21
+}
+.header-inicio {
+    padding: 4px 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #402f21;
+}
+.header-button {
+    background-color: #402f21;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F3F4F6;
+}
+nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.s1-contenedor {
+    background-color: #eedda0;
+}
+
+.presentación {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 32px 0px;
+}
+h1 { 
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: 'RingBearer',Arial, Helvetica, sans-serif;
+    color: #402f21;
+}
+span {
+    font-weight: 600;
+    color: #e3b737;
+}
+.codeable{
+    cursor: pointer;
+    font-weight: 600;
+    color: #e3b737;
+}
+.presentación-texto {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+    font-family: 'Aniron',Arial, Helvetica, sans-serif;
+    color: #402f21;
+}
+.fortalezas{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    max-width: 992px;
+    height: 43px;
+    font-size: 36px;
+    line-height: 43.2px;
+    padding: 32px auto;
+    margin: 0 auto;
+    margin-top: 32px;
+    color: #e3b737;
+}
+.explicaciónfortalezas{
+    font-family: 'tngani',Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 12px;
+    padding-left: 40px; 
+    color: #e3b737;
+}
+.fortalezas-h2 {
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #402f21;
+}
+.fortalezas-class {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px 60px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
+}
+.icono {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: inline-block;
+}
+.s3-container {
+    background-color: #eedda0;
+    padding: 10px 10px;
+    padding-bottom: 42px;
+    margin: 0 auto;
+}
+.imagen{
+    width: 319px;
+    height: 220px;
+    width: 100%;         
+    border-radius: 8px;
+    object-fit: cover;
+}
+.mishobbies{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    height: 43px;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin: 32px auto;
+    text-align: center;
+    color: #402f21;
+}
+.hobbies-class{
+    display: grid;
+    /* puse lo de autofit xq cuando reducía el tamaño de la pag todo se acomodaba menos las imagenes y el texto */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 24px;
+    justify-content: center; 
+    margin: 0 auto;
+    max-width: 1024px;
+    color: #402f21;
+}
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 319px; 
+    min-height: 220px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 319px; 
+    min-height: 220px;
+}
+h3 {
+  font-weight: 600;  
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #402f21;
+}
+
+.hobbies-text {
+  font-family: 'tngani',Arial, Helvetica, sans-serif;  
+  font-weight: 300;  
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #e3b737;
+}
+.s4-container{
+    padding: 20px;
+    margin: 50px 50px 300px 50px;
+}
+.contactar{
+    font-family: 'Aniron', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;  
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    color: #402f21;
+}
+.header-button2{
+    font-family: 'Ringbearer',Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #402f21;
+    padding: 8px 12px;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    cursor: pointer;
+    color: #F3F4F6;
+}
+.portafolio-text{
+    font-family: 'Aniron',Arial, Helvetica, sans-serif;
+    margin: 0 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #402f21;
+}
+.portafolio{
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: #e3b737;
+}
+.logos{
+    display: flex;         
+    gap: 0.5rem;            
+    margin: 1rem;
+
+}
+.logos img{
+    width: 30px;
+    height: 22px;
+    border-radius: 10px;
+}
+.proyectos-titulos{
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    line-height: 24px;
+}
+.proyectos-parrafo{
+    font-family: 'Hobbiton',Arial, Helvetica, sans-serif;
+}
+.proyectos-parrafos{
+    font-family: 'tngani',Arial, Helvetica, sans-serif;
+    color: #b87316;
+}
+.portafolio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1024px;
+    margin: 2rem auto;
+}
+
+.proyectos{
+    display: block;
+    background-color: #eedda0;
+    padding: 20px 20px;
+}
+.s3-container-4{
+    padding: 50px 20px;
+    margin: 0 0 200px 0;
+    background-color: #eedda0;
+}
+.s2-container{
+    padding: 20px;
+}
+
+

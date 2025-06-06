@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="headerpage">
+      <a href="index.html" class="header-name">Blog de Luiggi</a>
+      <nav>
+        <a href="index.html" class="header-inicio">Inicio</a>
+        <a href="portfolio.html" class="header-button">Portafolio</a>
+      </nav>
+    </header>
+    <section class="calculadora">
+      <main class="container">
+        <h1>Calculadora de IMC</h1>
+        <section class="form-group">
+          <label for="peso">Peso (Kg):</label>
+          <input
+            type="number"
+            name="peso"
+            id="peso"
+            placeholder="Escriba su peso aqui"
+            class="inputs"
+          />
+        </section>
+        <section class="form-group">
+          <label for="altura">Altura(m):</label>
+          <input
+            type="number"
+            name="altura"
+            id="altura"
+            placeholder="Escriba su altura aqui"
+            class="inputs"
+          />
+        </section>
+        <button onclick="calcularIMC()" class="imcbutton">Calcular IMC</button>
+        <div id="resultado"></div>
+      </main>
+    </section>
+    <section class="s3-container-imc">
+      <div class="contactar-class-4">
+        <h2 class="contactar">¿Puedo Ayudarte?</h2>
+        <button class="header-button2">Contáctame!</button>
+      </div>
+    </section>
+    <script src="scryptIMC.js"></script>
+  </body>
+</html>
