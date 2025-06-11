@@ -39,7 +39,7 @@ function empezarFunciones() {
     console.log("Ingrese solo números positivos");
   } else {
     let resultado = `La distancia en kilómetros es de ${+(
-      millas / Kilometros
+      millas * Kilometros
     ).toFixed(2)}`;
     console.log(resultado);
     alert(resultado);
@@ -227,7 +227,7 @@ function empezarFunciones() {
     alert("Ingrese notas positivas o  pesos mayores que 0");
     console.log("Ingrese notas positivas o  pesos mayores que 0");
   } else {
-    let resultado = +(nota * peso + nota2 * peso2 + nota3 * peso3).toFixed(2);
+    let resultado = +((nota * peso + nota2 * peso2 + nota3 * peso3)/1).toFixed(2);
     console.log(`Su promedio ponderado es de ${resultado}`);
     alert(`Su promedio ponderado es de ${resultado}`);
   }
