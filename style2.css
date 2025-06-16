@@ -305,5 +305,7 @@ h3 {
 .s2-container{
     padding: 20px;
 }
-
+a:visited{
+    color: #b87316 ;
+}
 
